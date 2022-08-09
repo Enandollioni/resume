@@ -8,109 +8,132 @@
 	<meta name="keywords" content="html,css,js,C#,tags">
 	<meta name="description" content="Это мой личный сайт портфолио.">
 	<title>Enandollioni resume</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
 </head>
 
 <body>
-	<img src="img/avatar.gif" alt="Здесь должна быть аватарка" height="150">
-	<h1> Александр</h1>
-	<p> Я начал изучать <strong>HTML&CSS!</strong> <em>это произошло после моего освоения таких языков как:</em>
-		<strong>С#</strong> и <strong>delphi</strong>.
-	</p>
-	<hr>
-	<p> <strong>Список моих контактов:</strong></p>
-	<p><a href="https://github.com/Enandollioni" target="_blank">github</a>
-		|
-		<a href="https://steamcommunity.com/id/Imagines_always_lie/" target="_blank"> steam</a>
-		|
-		<a href="https://www.twitch.tv/enandollioni" target="_blank"> twitch</a>
+	<div class="container">
+		<div class="info">
+			<img class="i_am" id="avatar" src="avatar.gif" alt="Здесь должна быть аватарка">
+			<div class="info-text">
+				<h1 class="i_am"> Александр</h1>
+				<p class="i_am"> Меня зовут Александр и я обучаюсь в сфере IT. <br> Я начал изучать <strong>HTML&CSS а так
+						же
+						Javascript.</strong>
+					<em> Это произошло после моего освоения таких языков как:</em>
+					<strong>С#</strong> и <strong>delphi(pascal)</strong>.
+				</p>
+			</div>
+		</div>
+		<hr>
+		<div class="card">
+			<p> <strong>Список моих контактов:</strong></p>
+			<p>
+				<a href="https://github.com/Enandollioni" target="_blank">github</a>
+				|
+				<a href="https://steamcommunity.com/id/Imagines_always_lie/" target="_blank"> steam</a>
+				|
+				<a href="https://www.twitch.tv/enandollioni" target="_blank"> twitch</a>
 
-	</p>
-	<p>
-		<strong>Мои хобби:</strong>
+			</p>
+		</div>
+
 		<br>
-	<ol>
-		<li>Плавание</li>
-		<li>Программирование</li>
-		<li>Аниме</li>
-		<li>Волейбол</li>
-	</ol>
+		<div class="card">
+			<p>
+				<strong>Мои хобби:</strong>
+				<br>
+			<ol class="list">
+				<li>Плавание</li>
+				<li>Программирование</li>
+				<li>Волейбол</li>
+			</ol>
 
-	</p>
-
-	<h2> Изучение языков Программирования</h2>
-	<table>
-		<thead>
-			<tr>
-				<th>
-					Название
-				</th>
-				<th>
-					Время изучения
-				</th>
-				<th>
-					Период изучения
-				</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>
-					C#
-				</td>
-				<td>
-					1 год
-				</td>
-				<td>
-					2021-2022
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Delphi
-				</td>
-				<td>
-					1 год
-				</td>
-				<td>
-					2020-2021
-				</td>
-			</tr>
-			<tr>
-				<td>
-					VBA
-				</td>
-				<td>
-					1 год
-				</td>
-				<td>
-					2019-2020
-				</td>
-			</tr>
-		</tbody>
-	</table>
-
-	<h2> Связатся со мной</h2>
-	<div>
-		<label for="text"> Ваше имя:</label>
-		<input type="text" id="text" placeholder="Введите имя">
-	</div>
-	<div>
-		<label for="email"> Ваш email:</label>
-		<input type="email" id="email" placeholder="Введите email">
-	</div>
-
-	<div>
-		<label for="message"> Ваше сообщение:</label>
+			</p>
+		</div>
 		<br>
-		<textarea id="message" cols="15" rows="5" placeholder="Ваше сообщение..."></textarea>
+		<div class="card">
+			<h2> Изучение языков Программирования</h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>
+							Название
+						</th>
+						<th>
+							Время изучения
+						</th>
+						<th>
+							Период изучения
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							C#
+						</td>
+						<td>
+							1 год
+						</td>
+						<td>
+							2021-2022
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Delphi
+						</td>
+						<td>
+							1 год
+						</td>
+						<td>
+							2020-2021
+						</td>
+					</tr>
+					<tr>
+						<td>
+							VBA
+						</td>
+						<td>
+							1 год
+						</td>
+						<td>
+							2019-2020
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<form action="/" class="form">
+			<h2> Связатся со мной</h2>
+			<div class="form-row">
+
+				<div class="form-group">
+					<label for="text"> Ваше имя:</label>
+					<input type="text" id="text" placeholder="Введите имя">
+				</div>
+
+
+				<div class="form-group">
+					<label for="email"> Ваш email:</label>
+					<input type="email" id="email" placeholder="Введите email">
+				</div>
+			</div>
+
+
+			<div class="form-group">
+				<label for="message"> Ваше сообщение:</label>
+				<textarea id="message" cols="15" rows="5" placeholder="Ваше сообщение..."></textarea>
+			</div>
+
+
+			<div>
+				<input class="btn" type="submit" value="Отправить">
+			</div>
+		</form>
 	</div>
-
-	<div>
-		<input type="submit" value="Отправить">
-	</div>
-
-
-
 </body>
 
 </html>
