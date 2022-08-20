@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="html,css,js,C#,tags">
+	<meta name="description" content="Это страница с моими работами.">
+	<link rel="stylesheet" href="styles.css">
+	<title> Проекты </title>
+
+	<style>
+		img {
+			width: 70%;
+			height: 70%;
+		}
+
+		img:hover {
+			transition: all 0.3s;
+			border-radius: 20px;
+			visibility: visible !important;
+			width: 100% !important;
+			height: 100% !important;
+		}
+
+		.wrapper {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+		}
+
+		.contenting {
+			flex: 1 0 auto;
+		}
+
+		.card {
+			padding-right: 15px;
+			font-size: 20px;
+			font-family: roboto;
+			font-weight: 500;
+		}
+
+		.footer {
+			font-size: 20px;
+			font-family: roboto;
+			font-weight: 500;
+			border-radius: 50px 50px 00px 0px;
+			flex: 0 0 auto;
+			margin-left: 22.5%;
+			margin-right: 21.99%;
+			margin-bottom: 0px;
+		}
+
+		.card-title {
+			margin-left: 37.5%;
+			margin-right: auto;
+			color: white;
+			padding: 0px;
+			border: none;
+			font-family: roboto;
+			cursor: pointer;
+			text-decoration: none;
+			font-size: large;
+		}
+
+		body {
+			margin-bottom: 0px !important;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container bgrow col post">
+		<h1>Мои проекты</h1>
+		<br>
+		<h2>1 проект</h2>
+		<div class="first_project">
+			<div class="card">Данный проект был создан на языке C# на WindowsForm мною как дипломная работа. Одна из первых
+				моих больших работ на этом языке.
+				<br>
+				<img src="projects/logo.png" alt="logo">
+				<img src="projects/gameplay.gif" alt="gameplay">
+			</div>
+
+			<h2>2 проект</h2>
+			<div class="first_project">
+				<div class="card"> Это мой сайт портфолио с которого вы наверное и попали на эту страницу. Моя вторая работа
+					уже на HTML&CSS. С этого сайта началось моё полноценное освоение такого языка как: JavaScript.
+					<br>
+					<img src="projects/project2.png" alt="project2" style="width: 50%; height: 50%;">
+				</div>
+
+
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+
+		<div class="contenting">
+
+		</div>
+
+		<footer class="footer card text-white bg-dark mt-3">
+			<div class="card-body my-3">
+				<h5 class="card-title">Дополнительная информация</h5>
+				<hr>
+				<p class="card-text">Все материалы на сайте представлены только для ознакомления.</p>
+				<p class="card-text">Дизайн и Тех. Часть: <a href="mailto:saed12956@yandex.ru">Enandollioni</a>
+				</p>
+				<p class="card-text"><a href="https://enandollioni.github.io/resume/"
+						style="  margin-left: 45%; margin-right: auto; width: 6em">Вернутся</a>
+				</p>
+			</div>
+		</footer>
+
+
+	</div>
+
+</body>
+
+
+</html>
