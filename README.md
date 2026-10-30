@@ -1,17 +1,17 @@
-# Alexander's Personal Portfolio & Resume
+# Персональное портфолио Alex (Enandollioni)
 
-Source code for my personal website hosted on GitHub Pages:
+Исходный код персонального сайта, опубликованного на GitHub Pages:
 👉 **[enandollioni.github.io/resume](https://enandollioni.github.io/resume/)**
 
 ---
 
-### 🛠 Tech Stack
-- **Architecture:** Responsive, lightweight Single Page Application (SPA).
-- **Frontend:** Semantic HTML5, modern vanilla CSS3 (CSS Custom Properties, Grid, Flexbox).
-- **Hosting:** GitHub Pages with SSL / TLS.
-- **Typography:** *Inter* & *JetBrains Mono*.
+### 🛠 Стек технологий
+- **Архитектура:** Адаптивное легковесное одностраничное приложение (SPA).
+- **Фронтенд:** Семантический HTML5, чистый современный CSS3 (переменные темы, Grid, Flexbox).
+- **Хостинг:** GitHub Pages с защищённым протоколом SSL/TLS.
+- **Типографика:** *Inter* & *JetBrains Mono*.
 
 ---
 
-### 📄 License
-This project is open-source under the [MIT License](LICENSE).
+### 📄 Лицензия
+Открытый исходный код под лицензией [MIT License](LICENSE).
