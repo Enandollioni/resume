@@ -1,172 +1,243 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="html,css,js,C#,tags">
-	<meta name="description" content="Это мой личный сайт портфолио.">
-	<title>Enandollioni resume</title>
-	<link rel="stylesheet" href="styles.css">
-	<script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexander (Enandollioni) — Backend & Systems Developer</title>
+  <meta name="description" content="Personal portfolio of Alexander (Enandollioni). Backend Engineer specializing in Python, Telegram automation, AI integrations, and Linux network systems.">
+  <meta name="theme-color" content="#0b0f19">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<div class="container-fluid">
-			<div class="collapse navbar-collapse" id="navbar">
-				<ul class="navbar-nav mx-auto mt-2 mt-lg-0 text-uppercase">
-					<li class="nav-item active px-md-3">
-						<a class="nav-link" href="http://127.0.0.1:5500/projects.html" target="_blank">
-							Проекты созданные мною
-						</a>
-					</li>
-					<li class="nav-item px-md-3">
-						<a class="nav-link" href="#">
-							Тут пока пусто
-						</a>
-					</li>
-					<li class="nav-item px-md-3">
-						<a class="nav-link" href="mailto:saed12956@yandex.ru">
-							По вопросам
-						</a>
-					</li>
-				</ul>
-				<div class="d-flex auth">
-					<a class="btn btn-success mx-1 my-1" href="#"><i class="fa fa-key"></i> <span>Регистрация</span></a>
-					<a class="btn btn-secondary mx-1 my-1" href="#"><i class="fa fa-user"></i> <span>Вход</span></a>
-				</div>
-			</div>
-		</div>
-	</nav>
 
+  <!-- Sticky Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="brand">
+        <span>Enandollioni</span>
+        <div class="status-indicator">
+          <span class="status-dot"></span>
+          <span>active</span>
+        </div>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#stack">Stack</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="https://github.com/Enandollioni" target="_blank" rel="noopener noreferrer" class="btn-github-nav">
+              GitHub ↗
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-	<div class="container bgrow col post">
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="hero-content">
+            <div class="pill-badge">
+              <span>⚡ Backend & Infrastructure Systems</span>
+            </div>
+            <h1>Hey, I'm <span class="highlight">Alexander</span></h1>
+            <p class="hero-subtitle">Backend Developer & Systems Specialist</p>
+            <p class="hero-bio">
+              I architect resilient asynchronous services, background worker pipelines, 
+              Telegram bot platforms with Google Gemini AI integration, and secure Linux networking solutions. 
+              Focused on contract-first engineering, fault tolerance, and clean code.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">Featured Projects</a>
+              <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+          </div>
+          <div class="hero-avatar-box">
+            <img class="hero-avatar" src="avatar.gif" alt="Alexander's Avatar">
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Tech Stack Section -->
+    <section class="stack-section" id="stack">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// Capabilities</span>
+          <h2 class="section-title">Core Tech Stack</h2>
+        </div>
+        <div class="stack-grid">
+          <div class="stack-card">
+            <h3>🐍 Backend & Languages</h3>
+            <p>High-efficiency scripting, asynchronous runtimes, and system tooling.</p>
+            <div class="tag-list">
+              <span class="tag">Python 3.12+</span>
+              <span class="tag">C# / .NET</span>
+              <span class="tag">Bash</span>
+              <span class="tag">SQL / SQLite</span>
+              <span class="tag">Asyncio</span>
+            </div>
+          </div>
 
+          <div class="stack-card">
+            <h3>🤖 AI & Bot Ecosystem</h3>
+            <p>Multi-turn dialogues, multimodal pipelines, and Telegram integrations.</p>
+            <div class="tag-list">
+              <span class="tag">Google Gemini API</span>
+              <span class="tag">Telegram Bot API</span>
+              <span class="tag">pyTelegramBotAPI</span>
+              <span class="tag">Computer Vision / PIL</span>
+              <span class="tag">Prompt Engineering</span>
+            </div>
+          </div>
 
-		<div class="info">
-			<img class="i_am" id="avatar" src="avatar.gif" alt="Здесь должна быть аватарка">
-			<div class="info-text">
-				<h1 class="i_am"> Александр</h1>
-				<p class="i_am"> Меня зовут Александр и я обучаюсь в сфере IT. <br> Я начал изучать <strong>HTML&CSS а
-						так
-						же
-						Javascript.</strong>
-					<em> Это произошло после моего освоения таких языков как:</em>
-					<strong>С#</strong> и <strong>delphi(pascal)</strong>.
-				</p>
-			</div>
-		</div>
-		<hr>
-		<div class="card">
-			<p> <strong>Список моих контактов:</strong></p>
-			<p>
-				<a href="https://github.com/Enandollioni" target="_blank">github</a>
-				|
-				<a href="https://steamcommunity.com/id/Enandollioni" target="_blank"> steam</a>
-				|
-				<a href="https://www.twitch.tv/enandollioni" target="_blank"> twitch</a>
+          <div class="stack-card">
+            <h3>⚙️ Systems & DevOps</h3>
+            <p>Reliable Linux server deployments, systemd daemons, and VCS automation.</p>
+            <div class="tag-list">
+              <span class="tag">Linux (Ubuntu/Debian)</span>
+              <span class="tag">Systemd Daemons</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Git & GitHub</span>
+              <span class="tag">Automated Backups</span>
+            </div>
+          </div>
 
-			</p>
-		</div>
+          <div class="stack-card">
+            <h3>🌐 Networking & Security</h3>
+            <p>High-speed encrypted tunnels, proxy infrastructure, and DNS routing.</p>
+            <div class="tag-list">
+              <span class="tag">VLESS / Reality</span>
+              <span class="tag">Xray Core</span>
+              <span class="tag">AdGuard Home</span>
+              <span class="tag">WireGuard / WARP</span>
+              <span class="tag">RESTful APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<br>
-		<div class="card">
-			<p>
-				<strong>Мои хобби:</strong>
-				<br>
-			<ol class="list">
-				<li>Плавание</li>
-				<li>Программирование</li>
-				<li>Волейбол</li>
-			</ol>
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// Engineering Showcase</span>
+          <h2 class="section-title">Selected Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1: GeminiBot -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-meta">
+                <span class="project-badge">Open Source</span>
+              </div>
+              <h3>Gemini AI Telegram Bot</h3>
+              <p>
+                An asynchronous, multimodal Telegram bot powered by the Google Gemini API. 
+                Features isolated conversation history per user, image recognition with OCR/caption parsing, 
+                and resilient chunked message delivery.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Gemini 1.5</span>
+                <span class="tag">Telegram API</span>
+                <span class="tag">Pillow</span>
+              </div>
+            </div>
+            <a href="https://github.com/Enandollioni/GeminiBot" target="_blank" rel="noopener noreferrer" class="project-link">
+              Inspect on GitHub ↗
+            </a>
+          </article>
 
-			</p>
-		</div>
-		<br>
-		<div class="card">
-			<h2> Изучение языков Программирования</h2>
-			<table class="table">
-				<thead>
-					<tr>
-						<th>
-							Название
-						</th>
-						<th>
-							Время изучения
-						</th>
-						<th>
-							Период изучения
-						</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							C#
-						</td>
-						<td>
-							1 год
-						</td>
-						<td>
-							2021-2022
-						</td>
-					</tr>
-					<tr>
-						<td>
-							Delphi
-						</td>
-						<td>
-							1 год
-						</td>
-						<td>
-							2020-2021
-						</td>
-					</tr>
-					<tr>
-						<td>
-							VBA
-						</td>
-						<td>
-							1 год
-						</td>
-						<td>
-							2019-2020
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<form action="/" class="form">
-			<h2> Связатся со мной</h2>
-			<div class="form-row">
+          <!-- Project 2: Network Infrastructure -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-meta">
+                <span class="project-badge">Infrastructure</span>
+              </div>
+              <h3>Network Tunnel & Stealth Proxy</h3>
+              <p>
+                High-throughput, encrypted tunneling solution on VPS with modern VLESS Reality TLS 1.3 masquerade, 
+                clean DNS routing via AdGuard Home, zero-log policies, and automated failover watchdogs.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Xray</span>
+                <span class="tag">VLESS / Reality</span>
+                <span class="tag">Linux VPS</span>
+                <span class="tag">Failover Watchdog</span>
+              </div>
+            </div>
+            <span class="project-link" style="color: var(--text-muted); cursor: default;">
+              Production Deployed 🛡️
+            </span>
+          </article>
 
-				<div class="form-group">
-					<label for="text"> Ваше имя:</label>
-					<input type="text" id="text" placeholder="Введите имя">
-				</div>
+          <!-- Project 3: Automated Daemons -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-meta">
+                <span class="project-badge">Automation</span>
+              </div>
+              <h3>Resilient System Daemons</h3>
+              <p>
+                Linux background service architectures equipped with self-healing watchdogs, 
+                in-place retry mechanisms for cloud APIs, automated SQLite checkpoints, and Telegram alerts.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">systemd</span>
+                <span class="tag">Automation</span>
+                <span class="tag">SQLite WAL</span>
+              </div>
+            </div>
+            <span class="project-link" style="color: var(--text-muted); cursor: default;">
+              Active Operations ⚡
+            </span>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <h2>Let's Build Something Solid</h2>
+          <p>
+            Interested in collaboration, technical dialogue, or backend architectures? 
+            Feel free to reach out directly.
+          </p>
+          <div class="contact-links">
+            <a href="https://github.com/Enandollioni" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              GitHub Profile
+            </a>
+            <a href="mailto:saed12956@yandex.ru" class="btn btn-secondary">
+              Email Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-				<div class="form-group">
-					<label for="email"> Ваш email:</label>
-					<input type="email" id="email" placeholder="Введите email">
-				</div>
-			</div>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Alexander (Enandollioni) · Built with precision · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
 
-
-			<div class="form-group">
-				<label for="message"> Ваше сообщение:</label>
-				<textarea id="message" cols="15" rows="5" placeholder="Ваше сообщение..."></textarea>
-			</div>
-
-
-			<div>
-				<input class="btn" type="submit" value="Отправить">
-			</div>
-		</form>
-	</div>
 </body>
-
 </html>
